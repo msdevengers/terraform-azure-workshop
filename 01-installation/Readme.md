@@ -24,3 +24,14 @@ echo 'export PATH=$PATH:~/dev/tools/hashicorp/terraform' >> ~/.bashrc
 echo 'alias tf=terraform' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+#### Install VS Code and its extensions
+```
+https://vscode-docs.readthedocs.io/en/stable/editor/setup/
+Install Terraform Support to VS Code
+Install Language Support Server for Terraform
+```
+
+```
+https://releases.hashicorp.com/terraform-provider-azurerm/
+```
