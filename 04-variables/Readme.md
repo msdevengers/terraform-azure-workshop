@@ -20,11 +20,21 @@ exit
 tf plan --out tf.out
 tf apply tf.out
 tf plan --out tf.out
+tf show
 tf destroy 
-ls -lart
+ls -lartgit st
 ```
 
 
+```bash
+brew install graphviz
+terraform graph | dot -Tsvg > graph.svg
 
+```
+
+Convert to terraform.tfvars
+```hc
+resource_group_name="westeurope"
+```
 
 
