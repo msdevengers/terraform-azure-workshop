@@ -1,2 +1,3 @@
 ```bash
+tf init
 ```
