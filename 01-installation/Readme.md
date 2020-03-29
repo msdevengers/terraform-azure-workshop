@@ -21,6 +21,17 @@ wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_am
 unzip terraform_0.12.24_linux_amd64.zip
 chmod +x terraform
 echo 'export PATH=$PATH:~/dev/tools/hashicorp/terraform' >> ~/.bashrc
-echo 'alias terraform=tf' >> ~/.bashrc
+echo 'alias tf=terraform' >> ~/.bashrc
 source ~/.bashrc
+```
+
+#### Install VS Code and its extensions
+```
+https://vscode-docs.readthedocs.io/en/stable/editor/setup/
+Install Terraform Support to VS Code
+Install Language Support Server for Terraform
+```
+
+```
+https://releases.hashicorp.com/terraform-provider-azurerm/
 ```
