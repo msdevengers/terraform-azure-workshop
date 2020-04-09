@@ -35,3 +35,16 @@ Install Language Support Server for Terraform
 ```
 https://releases.hashicorp.com/terraform-provider-azurerm/
 ```
+
+```bash
+terraform -install-autocomplete
+terraform -uninstall-autocomplete
+```
+
+#### Environtment variables
+https://www.terraform.io/docs/commands/environment-variables.html
+```bash
+export TF_CLI_CONFIG_FILE=$PWD/terraform.rc
+export TF_LOG=TRACE
+export TF_LOG_PATH=./terraform.log
+```

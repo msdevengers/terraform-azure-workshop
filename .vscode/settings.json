@@ -1,10 +1,10 @@
 {
     "terraform.path": "terraform12",
     "terraform.indexing": {
-        "enabled": false
+        "enabled": true
     },
     "terraform.languageServer": {
-        "enabled": true,
+        "enabled": false,
         "args": []
     }
 }
